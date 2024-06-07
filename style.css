@@ -261,7 +261,25 @@ body .howItWorks .pictures .image p {
     color: var(--nav-blue);
     cursor: default;
 }
-
+body .signupNavigator{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 5;
+    bottom: 10px;
+    right: 10px;
+    background-color: #183BB8;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body .signupNavigator i{
+    color: white;
+    font-size: 1.2rem;
+}
 body footer {
     height: 40vh;
     width: 100%;

@@ -23,7 +23,25 @@ body {
     background-color: #010E17;
 
 }
-
+body .signupNavigator{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 5;
+    bottom: 10px;
+    right: 10px;
+    background-color: #183BB8;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body .signupNavigator i{
+    color: white;
+    font-size: 1.2rem;
+}
 body nav {
     height: 6vh;
     width: 100%;
